@@ -1,0 +1,102 @@
+{
+  "app": {
+    "title": "UV Movie Collection",
+    "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwMCA1MDAiIGhlaWdodD0iNTAwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiB3aWR0aD0iNTAwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTM2Ljk5MiwyODEuNzk4YzAsMTAyLjg1MSw4My40MDYsMTg2LjI1MywxODYuMjUxLDE4Ni4yNTMgIGMxMDIuODQ5LDAsMTg2LjI1MS04My40MDIsMTg2LjI1MS0xODYuMjUzYzAtMzUuMTYtMTUuMDgyLTc5Ljg2MS0yNy4yNTQtOTguODQ3Yy0xMC41NDMtMTYuMjYzLTE0LjE4MS0yNi43MTItMTQuMTgxLTQxLjk3NiAgYzAtMzEuNzk5LDMzLjUyOS02My41OTksNjguNjkzLTYzLjU5OWg0LjU0M2MxMi41MzYsMCwyMi43MTEtMTAuMTc3LDIyLjcxMS0yMi43MTNjMC0xMi41MzYtMTAuMTc1LTIyLjcxMy0yMi43MTEtMjIuNzEzaC00LjU0MyAgYy01NS44ODEsMC0xMDMuNjY5LDI5LjgwMy0xMTUuMDI0LDkwLjg1M2MtMjMuMjY3LTE3LjYyNC01OS40MTktMjcuMjU0LTk4LjQ4Ni0yNy4yNTQgIEMxMjAuMzk4LDk1LjU0OCwzNi45OTIsMTc4Ljk1MywzNi45OTIsMjgxLjc5OHogTTIwMC41MywyODEuNzk4YzAtMTIuNTM2LDEwLjE3Ny0yMi43MTIsMjIuNzEzLTIyLjcxMnMyMi43MTMsMTAuMTc2LDIyLjcxMywyMi43MTIgIGMwLDEyLjU0LTEwLjE3NywyMi43MTUtMjIuNzEzLDIyLjcxNVMyMDAuNTMsMjk0LjMzOCwyMDAuNTMsMjgxLjc5OHogTTgyLjQxOCwyODEuNzk4YzAtMjIuNjI0LDE4LjI2LTQwLjg4NCw0MC44ODQtNDAuODg0ICBjMjIuNjI1LDAsNDAuODg2LDE4LjI2LDQwLjg4Niw0MC44ODRjMCwyMi42MjctMTguMjYsNDAuODg3LTQwLjg4Niw0MC44ODdDMTAwLjY3OSwzMjIuNjg1LDgyLjQxOCwzMDQuNDI1LDgyLjQxOCwyODEuNzk4eiAgIE0yODIuMjk4LDI4MS43OThjMC0yMi42MjQsMTguMjYtNDAuODg0LDQwLjg4Ny00MC44ODRjMjIuNjI0LDAsNDAuODg1LDE4LjI2LDQwLjg4NSw0MC44ODRjMCwyMi42MjctMTguMjYxLDQwLjg4Ny00MC44ODUsNDAuODg3ICBDMzAwLjU1OCwzMjIuNjg1LDI4Mi4yOTgsMzA0LjQyNSwyODIuMjk4LDI4MS43OTh6IE0xODIuMzU4LDM4MS43NDFjMC0yMi42MjgsMTguMjYtNDAuODg5LDQwLjg4Ni00MC44ODkgIHM0MC44ODUsMTguMjYxLDQwLjg4NSw0MC44ODljMCwyMi42MjMtMTguMjYsNDAuODgzLTQwLjg4NSw0MC44ODNTMTgyLjM1OCw0MDQuMzY0LDE4Mi4zNTgsMzgxLjc0MXogTTE4Mi4zNTgsMTgxLjg1OCAgYzAtMjIuNjI0LDE4LjI2LTQwLjg4Myw0MC44ODYtNDAuODgzczQwLjg4NSwxOC4yNiw0MC44ODUsNDAuODgzYzAsMjIuNjI1LTE4LjI2LDQwLjg4Ni00MC44ODUsNDAuODg2ICBTMTgyLjM1OCwyMDQuNDgzLDE4Mi4zNTgsMTgxLjg1OHoiIGZpbGw9IiMwMTAxMDEiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg=="
+  },
+  "cards": [
+    {
+      "title": "Avengers: End Game",
+      "year": 2019,
+      "img": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt4154796/",
+      "stars": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Mark Ruffalo"
+      ],
+      "quality": "1080p",
+      "isHindi": true
+    },
+    {
+      "title": "Joker",
+      "year": 2019,
+      "img": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt7286456/",
+      "stars": [
+        "Joaquin Phoenix",
+        "Robert De Niro",
+        "Zazie Beetz"
+      ],
+      "quality": "720p"
+    },
+    {
+      "title": "The Dark Night",
+      "year": 2008,
+      "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt0468569/",
+      "stars": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ],
+      "quality": "1080p"
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt1375666",
+      "stars": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Ellen Page"
+      ],
+      "quality": "1080p"
+    },
+    {
+      "title": "Avengers: End Game",
+      "year": 2019,
+      "img": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt4154796/",
+      "stars": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Mark Ruffalo"
+      ],
+      "quality": "1080p"
+    },
+    {
+      "title": "Joker",
+      "year": 2019,
+      "img": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt7286456/",
+      "stars": [
+        "Joaquin Phoenix",
+        "Robert De Niro",
+        "Zazie Beetz"
+      ]
+    },
+    {
+      "title": "The Dark Night",
+      "year": 2008,
+      "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt0468569/",
+      "stars": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ]
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+      "url": "https://www.imdb.com/title/tt1375666",
+      "stars": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Ellen Page"
+      ]
+    }
+  ]
+}
