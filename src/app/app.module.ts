@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { UvCardComponent } from './uv-card/uv-card.component';
 import { FormsModule } from '@angular/forms';
+import { UvCounterComponent } from './uv-counter/uv-counter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    UvCardComponent
+    UvCardComponent,
+    UvCounterComponent
   ],
   imports: [
     BrowserModule,

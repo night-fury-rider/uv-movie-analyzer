@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import uvData from './../../data.json';
+import uvData from './../../data/data.json';
 
 @Component({
   selector: 'app-home',
