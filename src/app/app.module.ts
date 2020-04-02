@@ -8,13 +8,15 @@ import { HomeComponent } from './home/home.component';
 import { UvCardComponent } from './uv-card/uv-card.component';
 import { FormsModule } from '@angular/forms';
 import { UvCounterComponent } from './uv-counter/uv-counter.component';
+import { UvSearchboxComponent } from './uv-searchbox/uv-searchbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     UvCardComponent,
-    UvCounterComponent
+    UvCounterComponent,
+    UvSearchboxComponent
   ],
   imports: [
     BrowserModule,
