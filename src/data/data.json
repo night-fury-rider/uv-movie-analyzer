@@ -3,6 +3,6 @@
     "title": "UV Movie Collection",
     "icon": "./assets/icons/logo.svg",
     "cardPath": "./../../assets/cards/",
-    "categories": ["action", "adventure"]
+    "categories": ["action", "adventure", "dance", "wars"]
   }
 }

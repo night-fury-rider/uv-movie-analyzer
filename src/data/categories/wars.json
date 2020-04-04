@@ -1,0 +1,58 @@
+{
+  "cards": [
+    {
+      "title": "300",
+      "year": 2006,
+      "img": "300-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": true
+    },
+    {
+      "title": "Braveheart",
+      "year": 1995,
+      "img": "braveheart-1995.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Enemy at the Gates",
+      "year": 2001,
+      "img": "enemy-at-the-gates-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    },
+    {
+      "title": "Fury",
+      "year": 2014,
+      "img": "fury-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Gladiator",
+      "year": 2000,
+      "img": "gladiator-2000.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Troy",
+      "year": 2004,
+      "img": "troy-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    }
+  ]
+}
