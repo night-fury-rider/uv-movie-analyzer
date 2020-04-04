@@ -10,6 +10,7 @@ import uvData from './../data/data.json';
 export class AppComponent {
   title = uvData.app.title;
   icon: SafeResourceUrl;
+  appData = uvData.app;
   constructor(private sanitizer: DomSanitizer) {
     this.icon = this.sanitizer.bypassSecurityTrustResourceUrl(uvData.app.icon);
   }

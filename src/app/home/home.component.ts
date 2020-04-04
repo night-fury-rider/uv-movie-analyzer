@@ -1,7 +1,7 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { Subscription } from 'rxjs/internal/Subscription';
 
-import uvData from './../../data/data.json';
+import uvData from './../../data/categories/action.json';
 import { HomeService } from './home.service';
 
 @Component({
@@ -11,14 +11,14 @@ import { HomeService } from './home.service';
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
+  @Input () appData: any;
+
   searchBoxSubscription: Subscription;
   uvCards = [];
   uvActiveCards = [];
-  appData = {};
   constructor(private homeService: HomeService) {
-    this.uvCards = uvData.cards;
-    this.uvActiveCards = JSON.parse(JSON.stringify(uvData.cards));
-    this.appData = uvData.app;
+    this.uvCards = (uvData && uvData.cards) ? uvData.cards : [];
+    this.uvActiveCards = JSON.parse(JSON.stringify(this.uvCards));
     this.homeService.updateCounter(this.uvActiveCards.length);
   }
 
