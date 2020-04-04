@@ -1,8 +1,10 @@
-<form (ngSubmit)="searchItems()">
+<form (submit)="searchItems()" #f="ngForm">
   <div class="row uv-searchbox-container">
     <div class="col-lg-2"></div>
-    <input type="text" class="form-control d-inline col-8" id="uv-searchbox" aria-describedby="emailHelp"
-           placeholder="Search">
-    <img class="col-2" alt="Yuvraj Patil" [src]="searchbox.icon" width="20" height="20"/>
+    <input type="text" class="form-control d-inline col-8" id="uv-searchbox"
+           aria-describedby="emailHelp" placeholder="Search" name="searchText"
+           [(ngModel)]="searchText">
+    <img (click)="searchItems()" class="col-2" alt="Yuvraj Patil"
+         [src]="searchbox.icon" width="20" height="20"/>
   </div>
 </form>

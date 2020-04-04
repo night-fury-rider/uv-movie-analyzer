@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import searchboxData from './uv-searchbox.component.json';
+import { HomeService } from './../home/home.service';
 
 @Component({
   selector: 'app-uv-searchbox',
@@ -9,14 +11,14 @@ import searchboxData from './uv-searchbox.component.json';
 export class UvSearchboxComponent implements OnInit {
 
   searchbox;
+  searchText;
 
-  constructor() {
+  constructor(private homeService: HomeService) {
     this.searchbox = searchboxData;
   }
 
   searchItems(): any {
-    alert(2);
-    console.log(333);
+    this.homeService.updateCards(this.searchText);
   }
 
   ngOnInit(): void {

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import uvData from './../../data/data.json';
+import { Subscription } from 'rxjs/internal/Subscription';
+
+import { HomeService } from './../home/home.service';
 
 @Component({
   selector: 'app-uv-counter',
@@ -8,10 +10,13 @@ import uvData from './../../data/data.json';
 })
 export class UvCounterComponent implements OnInit {
 
-  uvCards = uvData.cards;
-  constructor() { }
+  counterSubscription: Subscription;
+  counter: number;
+
+  constructor(private homeService: HomeService) { }
 
   ngOnInit(): void {
+    this.counterSubscription = this.homeService.cardCounter$.subscribe(counter => this.counter = counter);
   }
 
 }

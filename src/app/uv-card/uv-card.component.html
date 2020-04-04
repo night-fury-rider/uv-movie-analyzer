@@ -1,5 +1,5 @@
 <div class="card h-100">
-  <img [src]="cardData.img ? cardData.img : 'assets/joker.jpg'" class="card-img-top" alt="Yuvraj Patil">
+  <img [src]="appData.cardPath + cardData.img" class="card-img-top" alt="Yuvraj Patil">
   <div class="card-body d-flex flex-column">
     <h5 class="card-title">{{cardData.title}} ({{cardData.year}})</h5>
     <p *ngIf="cardData.stars.length > 0" class="card-text">Starring: {{cardData.stars}}</p>
