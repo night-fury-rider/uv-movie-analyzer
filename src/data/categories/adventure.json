@@ -1,0 +1,112 @@
+{
+  "cards": [
+    {
+      "title": "In the Heart of the Sea",
+      "year": 2015,
+      "img": "in-the-heart-of-the-sea-2015.jpg",
+      "url": "https://www.imdb.com/title/tt1390411/",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "year": 2008,
+      "img": "indiana-jones-and-the-kingdom-of-the-crystal-skull-2008.jpg",
+      "url": "https://www.imdb.com/title/tt0367882/",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Indiana Jones and the Last Crusade",
+      "year": 1989,
+      "img": "indiana-jones-and-the-last-crusade-1989.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "img": "raiders-of-the-lost-ark-1981.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Indiana Jones and the Temple of Doom",
+      "year": 1984,
+      "img": "indiana-jones-and-the-temple-of-doom-1984.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Journey to the Center of the Earth",
+      "year": 2008,
+      "img": "journey-to-the-center-of-the-earth-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Journey 2: The Mysterious Island",
+      "year": 2012,
+      "img": "journey-2-the-mysterious-island-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Pete's Dragon",
+      "year": 2016,
+      "img": "petes-dragon-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Sky High",
+      "year": 2005,
+      "img": "sky-high-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Revenant",
+      "year": 2015,
+      "img": "the-revenant-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Water Horse",
+      "year": 2007,
+      "img": "the-water-horse-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Zathura_ A Space Adventure",
+      "year": 2005,
+      "img": "zathura-a-space-adventure-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    }
+  ]
+}
