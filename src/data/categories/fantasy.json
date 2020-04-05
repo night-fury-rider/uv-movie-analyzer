@@ -1,0 +1,328 @@
+{
+  "cards": [
+    {
+      "title": "Clash of the Titans",
+      "year": 2010,
+      "img": "clash-of-the-titans-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Wrath of the Titans",
+      "year": 2012,
+      "img": "wrath-of-the-titans-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Wrath of the Titans",
+      "year": 2012,
+      "img": "wrath-of-the-titans-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Ghost Rider",
+      "year": 2007,
+      "img": "ghost-rider-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Ghost Rider: Spirit of Vengeance",
+      "year": 2011,
+      "img": "ghost-rider-spirit-of-vengeance-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "img": "harry-potter-and-the-chamber-of-secrets-2002.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": 2010,
+      "img": "harry-potter-and-the-deathly-hallows-part-1-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "year": 2011,
+      "img": "harry-potter-and-the-deathly-hallows-part-2-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "img": "harry-potter-and-the-goblet-of-fire-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Half-Blood Prince",
+      "year": 2009,
+      "img": "harry-potter-and-the-half-blood-prince-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "year": 2007,
+      "img": "harry-potter-and-the-order-of-the-phoenix-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "img": "harry-potter-and-the-prisoner-of-azkaban-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "img": "harry-potter-and-the-sorcerers-stone-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Hercules",
+      "year": 2014,
+      "img": "hercules-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "I, Frankenstein",
+      "year": 2014,
+      "img": "i-frankenstein-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Jumper",
+      "year": 2008,
+      "img": "jumper-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Percy Jackson: Sea of Monsters",
+      "year": 2013,
+      "img": "percy-jackson-sea-of-monsters-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Percy Jackson & the Olympians: The Lightning Thief",
+      "year": 2010,
+      "img": "percy-jackson-the-olympians-the-lightning-thief-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Pirates of the Caribbean: At World's End",
+      "year": 2007,
+      "img": "pirates-of-the-caribbean-at-worlds-end-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "year": 2006,
+      "img": "pirates-of-the-caribbean-dead-mans-chest-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Pirates of the Caribbean: On Stranger Tides",
+      "year": 2011,
+      "img": "pirates-of-the-caribbean-on-stranger-tides-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "img": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Prince of Persia: The Sands of Time",
+      "year": 2010,
+      "img": "prince-of-persia-the-sands-of-time-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Stardust",
+      "year": 2007,
+      "img": "stardust-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    },
+    {
+      "title": "The Great Wall",
+      "year": 2016,
+      "img": "the-great-wall-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hobbit: An Unexpected Journey",
+      "year": 2012,
+      "img": "the-hobbit-an-unexpected-journey-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "year": 2014,
+      "img": "the-hobbit-the-battle-of-the-five-armies-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hobbit: The Desolation of Smaug",
+      "year": 2013,
+      "img": "the-hobbit-the-desolation-of-smaug-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "img": "the-lord-of-the-rings-the-fellowship-of-the-ring-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "img": "the-lord-of-the-rings-the-return-of-the-king-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "img": "the-lord-of-the-rings-the-two-towers-2002.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Mummy",
+      "year": 1999,
+      "img": "the-mummy-1999.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Mummy Returns",
+      "year": 2001,
+      "img": "the-mummy-returns-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Mummy: Tomb of the Dragon Emperor",
+      "year": 2008,
+      "img": "the-mummy-tomb-of-the-dragon-emperor-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Scorpion King",
+      "year": 2002,
+      "img": "the-scorpion-king-2002.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": true
+    },
+    {
+      "title": "Warcraft",
+      "year": 2016,
+      "img": "warcraft-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    }
+  ]
+}
