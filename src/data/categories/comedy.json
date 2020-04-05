@@ -1,0 +1,175 @@
+{
+  "cards": [
+    {
+      "title": "Ace Ventura: Pet Detective",
+      "year": 1994,
+      "img": "ace-ventura-pet-detective-1994.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Ace Ventura: When Nature Calls",
+      "year": 1995,
+      "img": "ace-ventura-when-nature-calls-1995.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Hot Tub Time Machine",
+      "year": 2010,
+      "img": "hot-tub-time-machine-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Hot Tub Time Machine 2",
+      "year": 2015,
+      "img": "hot-tub-time-machine-2-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Bean",
+      "year": 1997,
+      "img": "bean-1997.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Mr Beans Holiday",
+      "year": 2007,
+      "img": "mr-beans-holiday-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Night at the Museum: Battle of the Smithsonian",
+      "year": 2009,
+      "img": "night-at-the-museum-battle-of-the-smithsonian-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Night at the Museum",
+      "year": 2006,
+      "img": "night-at-the-museum-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Night at the Museum: Secret of the Tomb",
+      "year": 2014,
+      "img": "night-at-the-museum-secret-of-the-tomb-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Rush Hour",
+      "year": 1998,
+      "img": "rush-hour-1998.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Rush Hour 2",
+      "year": 2001,
+      "img": "rush-hour-2-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Ted",
+      "year": 2012,
+      "img": "ted-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Ted 2",
+      "year": 2015,
+      "img": "ted-2-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Dictator",
+      "year": 2012,
+      "img": "the-dictator-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Dictator",
+      "year": 2012,
+      "img": "the-dictator-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "The Hangover",
+      "year": 2009,
+      "img": "the-hangover-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "DVD",
+      "isHindi": true
+    },
+    {
+      "title": "The Hangover",
+      "year": 2009,
+      "img": "the-hangover-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hangover Part II",
+      "year": 2011,
+      "img": "the-hangover-part-ii-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hangover Part III",
+      "year": 2013,
+      "img": "the-hangover-part-iii-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    }
+  ]
+}
