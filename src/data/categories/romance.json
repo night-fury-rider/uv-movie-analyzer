@@ -1,0 +1,31 @@
+{
+  "cards": [
+    {
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "year": 2004,
+      "img": "eternal-sunshine-of-the-spotless-mind-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Notebook",
+      "year": 2004,
+      "img": "the-notebook-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Titanic",
+      "year": 1997,
+      "img": "titanic-1997.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    }
+  ]
+}
