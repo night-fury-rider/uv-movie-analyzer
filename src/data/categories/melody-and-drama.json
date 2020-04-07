@@ -1,0 +1,121 @@
+{
+  "cards": [
+    {
+      "title": "12 Years A Slave",
+      "year": 2013,
+      "img": "12-years-a-slave-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Cast Away",
+      "year": 2000,
+      "img": "cast-away-2000.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Eight Below",
+      "year": 2006,
+      "img": "eight-below-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Perfume: The Story of a Murderer",
+      "year": 2006,
+      "img": "perfume-the-story-of-a-murderer-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Schindlers List",
+      "year": 1993,
+      "img": "schindlers-list-1993.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Sully",
+      "year": 2016,
+      "img": "sully-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Sully",
+      "year": 2016,
+      "img": "sully-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Sully",
+      "year": 2016,
+      "img": "sully-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Imitation Game",
+      "year": 2014,
+      "img": "the-imitation-game-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Pursuit of Happyness",
+      "year": 2006,
+      "img": "the-pursuit-of-happyness-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Station Agent",
+      "year": 2003,
+      "img": "the-station-agent-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Terminal",
+      "year": 2004,
+      "img": "the-terminal-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Warrior",
+      "year": 2011,
+      "img": "warrior-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    }
+  ]
+}

@@ -4,9 +4,9 @@
     "icon": "./assets/icons/logo.svg",
     "cardPath": "./../../assets/cards/",
     "categories": ["action", "alien", "adventure", "animation", "comedy", "dance",
-                   "dynasours-and-animals", "fantasy", "ghost-and-horror", "romance",
-                   "sci-fi", "wars"],
-    "remainingCategories": ["melody-and-drama", "mystery", "planning",
+                   "dynasours-and-animals", "fantasy", "ghost-and-horror", "melody-and-drama",
+                   "romance", "sci-fi", "wars"],
+    "remainingCategories": ["mystery", "planning",
                             "superhero", "vampire-vs-zombies"]
   }
 }
