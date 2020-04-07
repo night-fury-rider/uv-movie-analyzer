@@ -1,0 +1,355 @@
+{
+  "cards": [
+    {
+      "title": "Ant-Man",
+      "year": 2015,
+      "img": "ant-man-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Avengers: Age of Ultron",
+      "year": 2015,
+      "img": "avengers-age-of-ultron-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "img": "captain-america-civil-war-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Avengers",
+      "year": 2012,
+      "img": "the-avengers-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Batman Begins",
+      "year": 2005,
+      "img": "batman-begins-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    },
+    {
+      "title": "Batman Begins",
+      "year": 2005,
+      "img": "batman-begins-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Batman v Superman Dawn of Justice",
+      "year": 2016,
+      "img": "batman-v-superman-dawn-of-justice-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Batman v Superman Dawn of Justice",
+      "year": 2016,
+      "img": "batman-v-superman-dawn-of-justice-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Batman v Superman Dawn of Justice",
+      "year": 2016,
+      "img": "batman-v-superman-dawn-of-justice-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "img": "the-dark-knight-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "img": "the-dark-knight-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Dark Knight Rises",
+      "year": 2012,
+      "img": "the-dark-knight-rises-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "img": "captain-america-the-winter-soldier-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Deadpool",
+      "year": 2016,
+      "img": "deadpool-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Doctor Strange",
+      "year": 2016,
+      "img": "doctor-strange-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Fantastic Four",
+      "year": 2005,
+      "img": "fantastic-four-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Fantastic 4: Rise of the Silver Surfer",
+      "year": 2007,
+      "img": "fantastic-4-rise-of-the-silver-surfer-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Hulk",
+      "year": 2003,
+      "img": "hulk-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Incredible Hulk",
+      "year": 2008,
+      "img": "the-incredible-hulk-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Iron Man",
+      "year": 2008,
+      "img": "iron-man-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Iron Man 2",
+      "year": 2010,
+      "img": "iron-man-2-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": true
+    },
+    {
+      "title": "Iron Man 3",
+      "year": 2013,
+      "img": "iron-man-3-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Man Of Steel",
+      "year": 2013,
+      "img": "man-of-steel-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Spider-Man",
+      "year": 2002,
+      "img": "spider-man-2002.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Spider-Man 2",
+      "year": 2004,
+      "img": "spider-man-2-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Spider-Man 3",
+      "year": 2007,
+      "img": "spider-man-3-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Suicide Squad",
+      "year": 2016,
+      "img": "suicide-squad-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The League of Extraordinary Gentlemen",
+      "year": 2003,
+      "img": "the-league-of-extraordinary-gentlemen-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Thor: The Dark World",
+      "year": 2013,
+      "img": "thor-the-dark-world-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": true
+    },
+    {
+      "title": "Thor",
+      "year": 2011,
+      "img": "thor-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "X-Men: Apocalypse",
+      "year": 2016,
+      "img": "x-men-apocalypse-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "X-Men: Days of Future Past",
+      "year": 2014,
+      "img": "x-men-days-of-future-past-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Logan",
+      "year": 2017,
+      "img": "logan-2017.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "X-Men: The Last Stand",
+      "year": 2006,
+      "img": "x-men-the-last-stand-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Wolverine",
+      "year": 2013,
+      "img": "the-wolverine-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "X-Men",
+      "year": 2000,
+      "img": "x-men-2000.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "X-Men Origins: Wolverine",
+      "year": 2009,
+      "img": "x-men-origins-wolverine-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "X-Men 2",
+      "year": 2003,
+      "img": "x-men-2-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "img": "x-men-first-class-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    }
+  ]
+}
