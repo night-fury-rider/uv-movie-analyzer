@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class UvCardComponent implements OnInit {
 
   @Input () cardData: any;
+  @Input () appData: any;
 
   constructor() {}
 

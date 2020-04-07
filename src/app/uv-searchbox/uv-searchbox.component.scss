@@ -1,0 +1,13 @@
+.uv-searchbox-container {
+  align-items: center;
+  margin-left: 1rem;
+}
+.uv-searchbox-container img {
+  margin-left: -5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .uv-searchbox-container img {
+    margin-left: -3rem;
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "cards": [
+    {
+      "title": "1408",
+      "year": 2007,
+      "img": "1408-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Gone Girl",
+      "year": 2014,
+      "img": "gone-girl-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Prisoners",
+      "year": 2013,
+      "img": "prisoners-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Shutter Island",
+      "year": 2010,
+      "img": "shutter-island-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Split",
+      "year": 2016,
+      "img": "split-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Call",
+      "year": 2013,
+      "img": "the-call-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Prestige",
+      "year": 2006,
+      "img": "the-prestige-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    }
+  ]
+}

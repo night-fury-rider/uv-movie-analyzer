@@ -1,0 +1,85 @@
+{
+  "cards": [
+    {
+      "title": "Godzilla",
+      "year": 2014,
+      "img": "godzilla-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Jurassic Park",
+      "year": 1993,
+      "img": "jurassic-park-1993.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Jurassic Park III",
+      "year": 2001,
+      "img": "jurassic-park-iii-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Jurassic World",
+      "year": 2015,
+      "img": "jurassic-world-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Lost World: Jurassic Park",
+      "year": 1997,
+      "img": "the-lost-world-jurassic-park-1997.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Cave",
+      "year": 2005,
+      "img": "the-cave-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    },
+    {
+      "title": "The Cave",
+      "year": 2005,
+      "img": "the-cave-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Host",
+      "year": 2006,
+      "img": "the-host-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Mist",
+      "year": 2007,
+      "img": "the-mist-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    }
+  ]
+}

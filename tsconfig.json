@@ -16,7 +16,10 @@
       "dom"
     ],
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": [
+      "webpack-env"
+    ]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "title": "Step Up",
+      "year": 2006,
+      "img": "step-up-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Step Up 3D",
+      "year": 2010,
+      "img": "step-up-3d-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Step Up Revolution",
+      "year": 2012,
+      "img": "step-up-revolution-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Step Up 2: The Streets",
+      "year": 2008,
+      "img": "step-up-2-the-streets-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    }
+  ]
+}
