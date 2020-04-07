@@ -1,0 +1,436 @@
+{
+  "cards": [
+    {
+      "title": "The Day After Tomorrow",
+      "year": 2004,
+      "img": "the-day-after-tomorrow-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "2012",
+      "year": 2009,
+      "img": "2012-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Assassin's Creed",
+      "year": 2016,
+      "img": "assassins-creed-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Battlestar Galactica_ Blood & Chrome",
+      "year": 2012,
+      "img": "battlestar-galactica-blood-chrome-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Deja Vu",
+      "year": 2006,
+      "img": "deja-vu-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Dredd",
+      "year": 2012,
+      "img": "dredd-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Eagle Eye",
+      "year": 2008,
+      "img": "eagle-eye-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Elysium",
+      "year": 2013,
+      "img": "elysium-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Equilibrium",
+      "year": 2002,
+      "img": "equilibrium-2002.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "I, Robot",
+      "year": 2004,
+      "img": "i-robot-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "In Time",
+      "year": 2011,
+      "img": "in-time-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "img": "inception-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Insurgent",
+      "year": 2015,
+      "img": "insurgent-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "img": "interstellar-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Limitless",
+      "year": 2011,
+      "img": "limitless-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Looper",
+      "year": 2012,
+      "img": "looper-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Lucy",
+      "year": 2014,
+      "img": "lucy-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "img": "the-matrix-1999.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Matrix Reloaded",
+      "year": 2003,
+      "img": "the-matrix-reloaded-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Matrix Revolutions",
+      "year": 2003,
+      "img": "the-matrix-revolutions-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Paycheck",
+      "year": 2003,
+      "img": "paycheck-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Snowpiercer",
+      "year": 2013,
+      "img": "snowpiercer-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Source Code",
+      "year": 2011,
+      "img": "source-code-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Stealth",
+      "year": 2005,
+      "img": "stealth-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Surrogates",
+      "year": 2009,
+      "img": "surrogates-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Terminator Genisys",
+      "year": 2015,
+      "img": "terminator-genisys-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Terminator Genisys",
+      "year": 2015,
+      "img": "terminator-genisys-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Terminator 2: Judgement Day",
+      "year": 1991,
+      "img": "terminator-2-judgement-day-1991.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Terminator 3: Rise of the Machines",
+      "year": 2003,
+      "img": "terminator-3-rise-of-the-machines-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Terminator Salvation",
+      "year": 2009,
+      "img": "terminator-salvation-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "The Terminator",
+      "year": 1984,
+      "img": "the-terminator-1984.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "The Adjustment Bureau",
+      "year": 2011,
+      "img": "the-adjustment-bureau-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    },
+    {
+      "title": "The Butterfly Effect",
+      "year": 2004,
+      "img": "the-butterfly-effect-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "The Butterfly Effect 2",
+      "year": 2006,
+      "img": "the-butterfly-effect-2-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "The Butterfly Effect 3: Revelations",
+      "year": 2009,
+      "img": "the-butterfly-effect-3-revelations-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "The Fly",
+      "year": 1986,
+      "img": "the-fly-1986.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hunger Games: Catching Fire",
+      "year": 2013,
+      "img": "the-hunger-games-catching-fire-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hunger Games: Mockingjay - Part 1",
+      "year": 2014,
+      "img": "the-hunger-games-mockingjay-part-1-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hunger Games: Mockingjay - Part 2",
+      "year": 2015,
+      "img": "the-hunger-games-mockingjay-part-2-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Hunger Games",
+      "year": 2012,
+      "img": "the-hunger-games-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Island",
+      "year": 2005,
+      "img": "the-island-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Martian",
+      "year": 2015,
+      "img": "the-martian-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Maze Runner",
+      "year": 2014,
+      "img": "the-maze-runner-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Maze Runner: The Scorch Trials",
+      "year": 2015,
+      "img": "maze-runner-the-scorch-trials-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Total Recall",
+      "year": 2012,
+      "img": "total-recall-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Tron_ Legacy",
+      "year": 2010,
+      "img": "tron-legacy-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Unbreakable",
+      "year": 2000,
+      "img": "unbreakable-2000.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Upside Down",
+      "year": 2012,
+      "img": "upside-down-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    }
+  ]
+}
