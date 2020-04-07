@@ -5,7 +5,8 @@
     "cardPath": "./../../assets/cards/",
     "categories": ["action", "alien", "adventure", "animation", "comedy", "dance",
                    "dynasours-and-animals", "fantasy", "ghost-and-horror", "mystery",
-                   "melody-and-drama", "planning", "romance", "sci-fi", "wars"],
-    "remainingCategories": ["superhero", "vampire-vs-zombies"]
+                   "melody-and-drama", "planning", "romance", "sci-fi", "vampire-vs-zombies", 
+                   "wars"],
+    "remainingCategories": ["superhero"]
   }
 }
