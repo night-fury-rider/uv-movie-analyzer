@@ -1,0 +1,229 @@
+{
+  "cards": [
+    {
+      "title": "30 Days of Night",
+      "year": 2007,
+      "img": "30-days-of-night-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Dark Shadows",
+      "year": 2012,
+      "img": "dark-shadows-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Daybreakers",
+      "year": 2009,
+      "img": "daybreakers-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "I Am Legend",
+      "year": 2007,
+      "img": "i-am-legend-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Resident Evil: The Final Chapter",
+      "year": 2016,
+      "img": "resident-evil-the-final-chapter-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Resident Evil: Retribution",
+      "year": 2012,
+      "img": "resident-evil-retribution-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Crazies",
+      "year": 2010,
+      "img": "the-crazies-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Girl with All the Gifts",
+      "year": 2016,
+      "img": "the-girl-with-all-the-gifts-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Train to Busan",
+      "year": 2016,
+      "img": "train-to-busan-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Twilight Saga: Breaking Dawn - Part 1",
+      "year": 2011,
+      "img": "the-twilight-saga-breaking-dawn-part-1-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Twilight Saga: Breaking Dawn - Part 2",
+      "year": 2012,
+      "img": "the-twilight-saga-breaking-dawn-part-2-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Twilight Saga: Eclipse",
+      "year": 2010,
+      "img": "the-twilight-saga-eclipse-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Twilight Saga: New Moon",
+      "year": 2009,
+      "img": "the-twilight-saga-new-moon-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Twilight",
+      "year": 2008,
+      "img": "twilight-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Underworld Awakening",
+      "year": 2012,
+      "img": "underworld-awakening-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Underworld: Evolution",
+      "year": 2006,
+      "img": "underworld-evolution-2006.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Underworld: Rise of the Lycans ",
+      "year": 2009,
+      "img": "underworld-rise-of-the-lycans-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Underworld",
+      "year": 2003,
+      "img": "underworld-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    },
+    {
+      "title": "Underworld",
+      "year": 2003,
+      "img": "underworld-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Underworld: Blood Wars",
+      "year": 2016,
+      "img": "underworld-blood-wars-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Van Helsing",
+      "year": 2004,
+      "img": "van-helsing-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Warm Bodies",
+      "year": 2013,
+      "img": "warm-bodies-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "World War Z",
+      "year": 2013,
+      "img": "world-war-z-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "World War Z",
+      "year": 2013,
+      "img": "world-war-z-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Zombieland",
+      "year": 2009,
+      "img": "zombieland-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 <div class="card-deck">
-  <div class="row">
-    <div *ngFor="let uvCard of uvCards; index as i" class="col-md-3 col-sm-6 margin-bottom-rem-3">
-      <app-uv-card [cardData]="uvCard"></app-uv-card>
+  <div class="row full-width">
+    <div *ngFor="let uvCard of uvActiveCards; index as i" class="col-md-3 col-sm-6 margin-bottom-rem-3">
+      <app-uv-card [cardData]="uvCard" [appData]="appData"></app-uv-card>
     </div>
   </div>
 </div>

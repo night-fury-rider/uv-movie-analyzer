@@ -1,13 +1,16 @@
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-  <img width="40" alt="Angular Logo" [src]="icon" />
-  <span>{{title}}</span>
-  <div class="spacer"></div>
+  <img width="40" alt="Yuvraj Patil" [src]="icon" />
+  <span class="d-none d-lg-block">{{title}}</span>
+  <app-uv-searchbox></app-uv-searchbox>
+  <div class="spacer uv-counter-button">
+    <app-uv-counter></app-uv-counter>
+  </div>
 </div>
 
 <div class="content" role="main">
   <div class="container">
-    <app-home></app-home>
+    <app-home [appData]="appData"></app-home>
   </div>
 
 </div>

@@ -1,0 +1,319 @@
+{
+  "cards": [
+    {
+      "title": "Pacific Rim",
+      "year": 2013,
+      "img": "pacific-rim-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Alien",
+      "year": 1979,
+      "img": "alien-1979.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Prometheus",
+      "year": 2012,
+      "img": "prometheus-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Avatar",
+      "year": 2009,
+      "img": "avatar-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Battleship",
+      "year": 2012,
+      "img": "battleship-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "District 9",
+      "year": 2009,
+      "img": "district-9-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Edge of Tomorrow",
+      "year": 2014,
+      "img": "edge-of-tomorrow-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": true
+    },
+    {
+      "title": "Enders Game",
+      "year": 2013,
+      "img": "enders-game-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "img": "guardians-of-the-galaxy-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Independence Day",
+      "year": 1996,
+      "img": "independence-day-1996.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Life",
+      "year": 2017,
+      "img": "life-2017.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Men in Black",
+      "year": 1997,
+      "img": "men-in-black-1997.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Men in Black 3",
+      "year": 2012,
+      "img": "men-in-black-3-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Men in Black II",
+      "year": 2002,
+      "img": "men-in-black-ii-2002.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Oblivion",
+      "year": 2013,
+      "img": "oblivion-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Pandorum",
+      "year": 2009,
+      "img": "pandorum-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Alien Vs Predator",
+      "year": 2004,
+      "img": "alien-vs-predator-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Alien Vs Predator",
+      "year": 2004,
+      "img": "alien-vs-predator-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Aliens vs Predator - Requiem",
+      "year": 2007,
+      "img": "aliens-vs-predator-requiem-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Aliens vs Predator - Requiem",
+      "year": 2007,
+      "img": "aliens-vs-predator-requiem-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Predator",
+      "year": 1987,
+      "img": "predator-1987.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Predator 2",
+      "year": 1990,
+      "img": "predator-2-1990.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Predators",
+      "year": 2010,
+      "img": "predators-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Pitch Black",
+      "year": 2000,
+      "img": "pitch-black-2000.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Riddick",
+      "year": 2013,
+      "img": "riddick-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Chronicles of Riddick",
+      "year": 2004,
+      "img": "the-chronicles-of-riddick-2004.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Serenity",
+      "year": 2005,
+      "img": "serenity-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Abyss",
+      "year": 1989,
+      "img": "the-abyss-1989.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Darkest Hour",
+      "year": 2011,
+      "img": "the-darkest-hour-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "The Thing",
+      "year": 1982,
+      "img": "the-thing-1982.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Transformers: Age of Extinction",
+      "year": 2014,
+      "img": "transformers-age-of-extinction-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": true
+    },
+    {
+      "title": "Transformers: Dark of the Moon",
+      "year": 2011,
+      "img": "transformers-dark-of-the-moon-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Transformers: Revenge of the Fallen",
+      "year": 2009,
+      "img": "transformers-revenge-of-the-fallen-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Transformers",
+      "year": 2007,
+      "img": "transformers-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "War of the Worlds",
+      "year": 2005,
+      "img": "war-of-the-worlds-2005.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    }
+  ]
+}

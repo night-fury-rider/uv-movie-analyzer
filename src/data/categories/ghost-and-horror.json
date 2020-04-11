@@ -1,0 +1,220 @@
+{
+  "cards": [
+    {
+      "title": "A Tale Of Two Sisters",
+      "year": 2003,
+      "img": "a-tale-of-two-sisters-2003.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Dead Silence",
+      "year": 2007,
+      "img": "dead-silence-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Insidious: Chapter 2",
+      "year": 2013,
+      "img": "insidious-chapter-2-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Insidious: Chapter 3",
+      "year": 2015,
+      "img": "insidious-chapter-3-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Insidious",
+      "year": 2010,
+      "img": "insidious-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "It Follows",
+      "year": 2014,
+      "img": "it-follows-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Jeepers Creepers",
+      "year": 2001,
+      "img": "jeepers-creepers-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Jennifer's Body",
+      "year": 2009,
+      "img": "jennifers-body-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Lights Out",
+      "year": 2016,
+      "img": "lights-out-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "MaMa",
+      "year": 2013,
+      "img": "mama-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    },
+    {
+      "title": "Oculus",
+      "year": 2013,
+      "img": "oculus-2013.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": false
+    },
+    {
+      "title": "Orphan",
+      "year": 2009,
+      "img": "orphan-2009.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Paranormal Activity",
+      "year": 2007,
+      "img": "paranormal-activity-2007.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Paranormal Activity 2",
+      "year": 2010,
+      "img": "paranormal-activity-2-2010.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Paranormal Activity 3",
+      "year": 2011,
+      "img": "paranormal-activity-3-2011.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "Paranormal Activity 4",
+      "year": 2012,
+      "img": "paranormal-activity-4-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Paranormal Activity_ The Ghost Dimension",
+      "year": 2015,
+      "img": "paranormal-activity-the-ghost-dimension-2015.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Paranormal Activity_ The Marked Ones",
+      "year": 2014,
+      "img": "paranormal-activity-the-marked-ones-2014.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "Sinister",
+      "year": 2012,
+      "img": "sinister-2012.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Autopsy of Jane Doe",
+      "year": 2016,
+      "img": "the-autopsy-of-jane-doe-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Conjuring 2",
+      "year": 2016,
+      "img": "the-conjuring-2-2016.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Others",
+      "year": 2001,
+      "img": "the-others-2001.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "720p",
+      "isHindi": false
+    },
+    {
+      "title": "The Ruins",
+      "year": 2008,
+      "img": "the-ruins-2008.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "1080p",
+      "isHindi": false
+    },
+    {
+      "title": "The Sixth Sense",
+      "year": 1999,
+      "img": "the-sixth-sense-1999.jpg",
+      "url": "",
+      "stars": [],
+      "quality": "",
+      "isHindi": true
+    }
+  ]
+}
