@@ -25,7 +25,6 @@
   }
 
   .toolbar {
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -35,6 +34,7 @@
     background-color: #1976d2;
     color: white;
     font-weight: 600;
+    z-index: 2;
   }
 
   .toolbar img {
@@ -130,4 +130,17 @@
     margin-right: 1rem;
     position: absolute;
     right: 0;
+   }
+
+   .uv-filter-header {
+     margin-bottom: 5rem;
+     z-index: 2;
+   }
+
+   .uv-filter-container, .uv-filter-container button {
+     width: 100%;
+   }
+
+   .uv-filter-header button {
+    z-index: 2;
    }

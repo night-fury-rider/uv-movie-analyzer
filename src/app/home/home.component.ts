@@ -14,10 +14,11 @@ export class HomeComponent implements OnInit, OnDestroy {
   @Input() appData: any;
 
   searchBoxSubscription: Subscription;
+  sortSubscription: Subscription;
+
   uvCards = [];
   uvActiveCards = [];
   constructor(private homeService: HomeService) {
-
     let rawCardsData = [];
     let categoryData;
     for (const categoryName of uvData.app.categories) {
@@ -41,9 +42,35 @@ export class HomeComponent implements OnInit, OnDestroy {
       });
       this.homeService.updateCounter(this.uvActiveCards.length);
     });
+
+    this.sortSubscription = this.homeService.cardSortOrder$.subscribe(sortOrder => {
+      let cardAValue;
+      let cardBValue;
+      if (sortOrder === null || typeof sortOrder === 'undefined') {
+        sortOrder = this.appData.sortOrders[this.appData.defaultOrderIndex];
+      }
+      this.uvActiveCards = this.uvActiveCards.sort((uvCardA, uvCardB) => {
+        if (sortOrder.type === 'number') {
+          return uvCardB[sortOrder.sortAttribute] - uvCardA[sortOrder.sortAttribute];
+        } else if (sortOrder.type === 'string') {
+          cardAValue = uvCardA[sortOrder.sortAttribute].toLowerCase();
+          cardBValue = uvCardB[sortOrder.sortAttribute].toLowerCase();
+          if (cardAValue > cardBValue) {
+            return 1;
+          } else if (cardAValue < cardBValue) {
+            return -1;
+          } else {
+            return 0;
+          }
+        } else {
+          return uvCardB[sortOrder.sortAttribute] - uvCardA[sortOrder.sortAttribute];
+        }
+      });
+    });
   }
 
   ngOnDestroy(): void {
     this.searchBoxSubscription.unsubscribe();
+    this.sortSubscription.unsubscribe();
   }
 }

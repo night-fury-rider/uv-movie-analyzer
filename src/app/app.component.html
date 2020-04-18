@@ -8,11 +8,29 @@
   </div>
 </div>
 
+<div class="container d-lg-none">
+  <div class="row uv-filter-header">
+    <div class="col-6 padding-zero">
+      <div ngbDropdown class="d-inline-block uv-filter-container">
+        <button class="btn btn-outline-primary btn-lg" id="dropdownBasic1"
+          ngbDropdownToggle>{{selectedSortOrder.name}}</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button ngbDropdownItem *ngFor="let sortOrder of sortOrders; let i=index;"
+            (click)="changeSortOrder(i)">{{sortOrder.name}}</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 padding-zero">
+      <div class="d-inline-block uv-filter-container">
+        <button disabled class="btn btn-outline-primary mr-2 btn-lg">Filter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="content" role="main">
   <div class="container">
     <app-home [appData]="appData"></app-home>
   </div>
-
 </div>
-
 <router-outlet></router-outlet>
