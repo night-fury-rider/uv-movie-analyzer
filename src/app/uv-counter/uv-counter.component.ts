@@ -16,7 +16,7 @@ export class UvCounterComponent implements OnInit {
   constructor(private homeService: HomeService) { }
 
   ngOnInit(): void {
-    this.counterSubscription = this.homeService.cardCounter$.subscribe(counter => this.counter = counter);
+    this.counterSubscription = this.homeService.cardCounterSubscriber$.subscribe(counter => this.counter = counter);
   }
 
 }

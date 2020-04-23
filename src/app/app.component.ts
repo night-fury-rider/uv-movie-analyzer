@@ -15,6 +15,7 @@ export class AppComponent {
   appData = uvData.app;
   sortOrders = uvData.app.sortOrders;
   selectedSortOrder = this.sortOrders[this.appData.defaultOrderIndex];
+  uvFilters = this.appData.filters;
   constructor(private sanitizer: DomSanitizer, private homeService: HomeService) {
     this.icon = this.sanitizer.bypassSecurityTrustResourceUrl(uvData.app.icon);
   }

@@ -10,6 +10,7 @@ import { UvCardComponent } from './uv-card/uv-card.component';
 import { FormsModule } from '@angular/forms';
 import { UvCounterComponent } from './uv-counter/uv-counter.component';
 import { UvSearchboxComponent } from './uv-searchbox/uv-searchbox.component';
+import { UvFilterComponent } from './uv-filter/uv-filter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UvSearchboxComponent } from './uv-searchbox/uv-searchbox.component';
     HomeComponent,
     UvCardComponent,
     UvCounterComponent,
-    UvSearchboxComponent
+    UvSearchboxComponent,
+    UvFilterComponent
   ],
   imports: [
     BrowserModule,

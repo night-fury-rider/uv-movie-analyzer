@@ -8,21 +8,27 @@ export class HomeService {
 
   constructor() { }
 
-  private cardsSource = new BehaviorSubject<string>('');
-  private cardCounterSource = new BehaviorSubject<number>(0);
-  private cardSortSource = new BehaviorSubject<any>(null);
+  private searchSubject = new BehaviorSubject<string>('');
+  private filterSubject = new BehaviorSubject<any>(null);
+  private counterSubject = new BehaviorSubject<number>(0);
+  private cardSortSubject = new BehaviorSubject<any>(null);
 
-  cards$ = this.cardsSource.asObservable();
-  cardCounter$ = this.cardCounterSource.asObservable();
-  cardSortOrder$ = this.cardSortSource.asObservable();
+
+  searchSubscriber$ = this.searchSubject.asObservable();
+  filterSubscriber$ = this.filterSubject.asObservable();
+  cardCounterSubscriber$ = this.counterSubject.asObservable();
+  cardSortOrderSubscriber$ = this.cardSortSubject.asObservable();
 
   updateCards(searchString: string) {
-    this.cardsSource.next(searchString);
+    this.searchSubject.next(searchString);
   }
-  updateCounter(cardCounter: number) {
-    this.cardCounterSource.next(cardCounter);
+  updateCounter(cardCounterSubscriber: number) {
+    this.counterSubject.next(cardCounterSubscriber);
   }
   sortCards(sortObj: any) {
-    this.cardSortSource.next(sortObj);
+    this.cardSortSubject.next(sortObj);
+  }
+  filterCards(filterObj: any) {
+    this.filterSubject.next(filterObj);
   }
 }

@@ -3,6 +3,7 @@ import { Subscription } from 'rxjs/internal/Subscription';
 
 import uvData from './../../data/data.json';
 import { HomeService } from './home.service';
+import { UvUtilService } from './../uv-util/uv-util.service';
 
 @Component({
   selector: 'app-home',
@@ -14,11 +15,13 @@ export class HomeComponent implements OnInit, OnDestroy {
   @Input() appData: any;
 
   searchBoxSubscription: Subscription;
+  filterSubscription: Subscription;
   sortSubscription: Subscription;
 
   uvCards = [];
   uvActiveCards = [];
-  constructor(private homeService: HomeService) {
+
+  constructor(private homeService: HomeService, private uvUtilService: UvUtilService) {
     let rawCardsData = [];
     let categoryData;
     for (const categoryName of uvData.app.categories) {
@@ -35,7 +38,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     /**
      * @description Function to subscribe to searchbox.
      */
-    this.searchBoxSubscription = this.homeService.cards$.subscribe(searchString => {
+    this.searchBoxSubscription = this.homeService.searchSubscriber$.subscribe(searchString => {
       searchString = searchString.toLowerCase();
       this.uvActiveCards = this.uvCards.filter(uvCard => {
         return (uvCard.title.toLowerCase().indexOf(searchString) > -1);
@@ -43,7 +46,36 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.homeService.updateCounter(this.uvActiveCards.length);
     });
 
-    this.sortSubscription = this.homeService.cardSortOrder$.subscribe(sortOrder => {
+    /**
+     * @description Function to subscribe to filters.
+     */
+    this.filterSubscription = this.homeService.filterSubscriber$.subscribe(activeFilters => {
+      
+      if(activeFilters === null) {
+        return;
+      }
+      let tmpCards = JSON.parse(JSON.stringify(this.uvActiveCards));
+      let activeFilter;
+      let subFilter;
+      let rangeFilters = {};
+      let rangeFilter = {}
+      for (const activeFilter of activeFilters) {
+        if(activeFilter && activeFilter.type === 'range') {
+          rangeFilters[activeFilter.filterAttribute] = [];
+          for (const subFilter of activeFilter.subFilters) {
+            if(subFilter.isActive) {
+              rangeFilters[activeFilter.filterAttribute].push(subFilter);
+            }
+          }
+        }
+      }
+
+      this.uvActiveCards = this.uvUtilService.applyRangeFilter(tmpCards, rangeFilters);
+      this.homeService.sortCards(this.appData.sortOrders[this.appData.defaultOrderIndex]);
+      this.homeService.updateCounter(this.uvActiveCards.length);
+    });
+
+    this.sortSubscription = this.homeService.cardSortOrderSubscriber$.subscribe(sortOrder => {
       let cardAValue;
       let cardBValue;
       if (sortOrder === null || typeof sortOrder === 'undefined') {
@@ -71,6 +103,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.searchBoxSubscription.unsubscribe();
+    this.filterSubscription.unsubscribe();
     this.sortSubscription.unsubscribe();
   }
 }
