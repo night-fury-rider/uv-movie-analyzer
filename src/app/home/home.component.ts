@@ -26,6 +26,10 @@ export class HomeComponent implements OnInit, OnDestroy {
     let categoryData;
     for (const categoryName of uvData.app.categories) {
       categoryData = require('./../../data/categories/' + categoryName + '.json');
+      // Add category in card data. It would be used for filtering based on category.
+      for (const myCard of categoryData.cards) {
+        myCard.category = categoryName;
+      }
       rawCardsData = rawCardsData.concat(categoryData.cards);
     }
 
@@ -50,27 +54,44 @@ export class HomeComponent implements OnInit, OnDestroy {
      * @description Function to subscribe to filters.
      */
     this.filterSubscription = this.homeService.filterSubscriber$.subscribe(activeFilters => {
-      
-      if(activeFilters === null) {
+
+      if (activeFilters === null) {
         return;
       }
-      let tmpCards = JSON.parse(JSON.stringify(this.uvActiveCards));
-      let activeFilter;
-      let subFilter;
-      let rangeFilters = {};
-      let rangeFilter = {}
+      const tmpCards = JSON.parse(JSON.stringify(this.uvCards));
+      const rangeFilters = {};
+      const checkboxFilters = {};
+      let isRangeFilterApplied = false;
+      let isCheckboxFilterApplied = false;
       for (const activeFilter of activeFilters) {
-        if(activeFilter && activeFilter.type === 'range') {
+        if (activeFilter && activeFilter.type === 'range') {
           rangeFilters[activeFilter.filterAttribute] = [];
           for (const subFilter of activeFilter.subFilters) {
-            if(subFilter.isActive) {
+            if (subFilter.isActive) {
               rangeFilters[activeFilter.filterAttribute].push(subFilter);
+              isRangeFilterApplied = true;
+            }
+          }
+        }
+        if (activeFilter && activeFilter.type === 'checkbox') {
+          checkboxFilters[activeFilter.filterAttribute] = [];
+          for (const subFilter of activeFilter.subFilters) {
+            if (subFilter.isActive) {
+              checkboxFilters[activeFilter.filterAttribute].push(subFilter);
+              isCheckboxFilterApplied = true;
             }
           }
         }
       }
 
-      this.uvActiveCards = this.uvUtilService.applyRangeFilter(tmpCards, rangeFilters);
+      if (isCheckboxFilterApplied) {
+        this.uvActiveCards = this.uvUtilService.applyCheckboxFilter(this.uvCards, checkboxFilters);
+      }
+      if (isRangeFilterApplied) {
+        const rangeSourceCards = (isCheckboxFilterApplied) ? this.uvActiveCards : this.uvCards;
+        this.uvActiveCards = this.uvUtilService.applyRangeFilter(rangeSourceCards, rangeFilters);
+      }
+
       this.homeService.sortCards(this.appData.sortOrders[this.appData.defaultOrderIndex]);
       this.homeService.updateCounter(this.uvActiveCards.length);
     });

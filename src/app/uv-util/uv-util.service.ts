@@ -9,16 +9,34 @@ export class UvUtilService {
 
   /**
    * @description Function to apply range filters
-   * @param sourceArray {any} - Array of objects on which range filters to be applied.
-   * @param rangeFilters {any} - Object with different range filters.
+   * @param sourceArray - Array of objects on which range filters to be applied.
+   * @param rangeFilters - Object with different range filters.
    * @returns Filtered array of objects.
    */
-  applyRangeFilter(sourceArray: [], rangeFilters: any) {
+  applyRangeFilter(sourceArray: any, rangeFilters: any) {
     let filteredArray = [];
-    for (let filterName in rangeFilters) {
+    for (const filterName of Object.keys(rangeFilters)) {
       for (const rangeFilter of rangeFilters[filterName]) {
         filteredArray = filteredArray.concat(sourceArray.filter(obj => {
           return obj[filterName] >= rangeFilter.range[0] && obj[filterName] < rangeFilter.range[1];
+        }));
+      }
+    }
+    return filteredArray;
+  }
+
+  /**
+   * @description Function to apply checkbox filters
+   * @param sourceArray - Array of objects on which checkbox filters to be applied.
+   * @param rangeFilters - Object with different checkbox filters.
+   * @returns Filtered array of objects.
+   */
+  applyCheckboxFilter(sourceArray: any, checkboxFilters: any) {
+    let filteredArray = [];
+    for (const filterName of Object.keys(checkboxFilters)) {
+      for (const filter of checkboxFilters[filterName]) {
+        filteredArray = filteredArray.concat(sourceArray.filter(obj => {
+          return filter.id === obj[filterName];
         }));
       }
     }

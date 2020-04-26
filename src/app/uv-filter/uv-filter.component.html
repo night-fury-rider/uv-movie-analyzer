@@ -1,6 +1,6 @@
  <ng-template #filters let-modal>
   <div class="modal-header">
-    <h4 class="modal-title">Modal title</h4>
+    <h4 class="modal-title">Filters</h4>
     <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
       <span aria-hidden="true">&times;</span>
     </button>
@@ -9,8 +9,8 @@
     <div class="row">
       <div class="col-4">
         <div *ngFor="let uvFilter of uvFilters; let filterIndex=index;"
-             (click)="changeFilter(uvFilter)"
-             [ngClass]="(uvFilter === activeFilter) ?  'uv-active-filter' : ''">{{uvFilter.title}}
+             (click)="changeActiveFilter(uvFilter)"
+             [ngClass]="(uvFilter === activeFilter) ? 'uv-active-filter' : ''">{{uvFilter.title}}
         </div>
       </div>
       <div class="col-8">

@@ -14,29 +14,35 @@ export class UvFilterComponent implements OnInit {
 
   @Input() uvFilters: any;
 
-  UV_FILTERS: any;
+  previousFilters: any;
 
   activeFilter;
 
   closeResult: string;
 
-  constructor(private modalService: NgbModal, private homeService: HomeService, 
+  constructor(private modalService: NgbModal, private homeService: HomeService,
               private utilService: UvUtilService) { }
 
   ngOnInit(): void {
     this.activeFilter = this.uvFilters[0];
-    this.UV_FILTERS = JSON.parse(JSON.stringify(this.uvFilters));
-  }  
+    this.previousFilters = JSON.parse(JSON.stringify(this.uvFilters));
+  }
 
-  changeFilter(filter) {
+  /**
+   * @description Function to set active filter.
+   * @param filter - Filter which has to be set as active.
+   */
+  changeActiveFilter(filter) {
     this.activeFilter = filter;
   }
 
   applyFilters() {
-    if(!this.utilService.areArraysEqual(this.UV_FILTERS, this.uvFilters)) {
-      this.homeService.filterCards(this.uvFilters);
+    const appliedFilters = JSON.parse(JSON.stringify(this.uvFilters));
+    if (!this.utilService.areArraysEqual(this.previousFilters, appliedFilters)) {
+      this.homeService.filterCards(appliedFilters);
+      this.previousFilters = appliedFilters;
     }
-  };
+  }
 
   openVerticallyCentered(content) {
     this.modalService.open(content, { centered: true });
