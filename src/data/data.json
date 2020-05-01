@@ -46,6 +46,66 @@
             "id": "comedy",
             "title": "Comedy",
             "isActive": false
+          },
+          {
+            "id": "dance",
+            "title": "Dance",
+            "isActive": false
+          },
+          {
+            "id": "dynasours-and-animals",
+            "title": "Animals",
+            "isActive": false
+          },
+          {
+            "id": "fantasy",
+            "title": "Fantasy",
+            "isActive": false
+          },
+          {
+            "id": "ghost-and-horror",
+            "title": "Horror",
+            "isActive": false
+          },
+          {
+            "id": "mystery",
+            "title": "Mystery",
+            "isActive": false
+          },
+          {
+            "id": "melody-and-drama",
+            "title": "Drama",
+            "isActive": false
+          },
+          {
+            "id": "planning",
+            "title": "Planning",
+            "isActive": false
+          },
+          {
+            "id": "romance",
+            "title": "Romance",
+            "isActive": false
+          },
+          {
+            "id": "sci-fi",
+            "title": "Sci-Fi",
+            "isActive": false
+          },
+          {
+            "id": "superhero",
+            "title": "Superhero",
+            "isActive": false
+          },
+          {
+            "id": "vampire-vs-zombies",
+            "title": "Zombies",
+            "isActive": false
+          },
+          {
+            "id": "wars",
+            "title": "Wars",
+            "isActive": false
           }
         ]
       },
@@ -92,7 +152,7 @@
     "cardPath": "./../../assets/cards/",
     "categories": ["action", "alien", "adventure", "animation", "comedy", "dance",
                    "dynasours-and-animals", "fantasy", "ghost-and-horror", "mystery",
-                   "melody-and-drama", "planning", "romance", "sci-fi", "superhero", 
+                   "melody-and-drama", "planning", "romance", "sci-fi", "superhero",
                    "vampire-vs-zombies", "wars"]
   }
 }

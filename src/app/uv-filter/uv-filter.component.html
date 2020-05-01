@@ -7,34 +7,36 @@
   </div>
   <div class="modal-body">
     <div class="row">
-      <div class="col-4">
+      <div class="col-4 uv-filter-name-container">
         <div *ngFor="let uvFilter of uvFilters; let filterIndex=index;"
              (click)="changeActiveFilter(uvFilter)"
-             [ngClass]="(uvFilter === activeFilter) ? 'uv-active-filter' : ''">{{uvFilter.title}}
+             [ngClass]="(uvFilter === activeFilter) ? 'uv-active-filter' : ''"><h3>{{uvFilter.title}}</h3>
         </div>
       </div>
-      <div class="col-8">
+      <div class="col-8 uv-checkbox-container">
         <div *ngFor="let uvFilter of uvFilters">
           <div [hidden]="uvFilter !== activeFilter">
-            <div *ngFor="let subFilter of uvFilter.subFilters">
-              <div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" [attr.id]= "subFilter.id"
-                         [checked]="subFilter.isActive" (change)="subFilter.isActive = !subFilter.isActive"/>
-                  <label class="form-check-label" [attr.for]="subFilter.id">{{subFilter.title}}</label>
-                </div>
-              </div>
-            </div>
+
+            <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+              <ul>
+                <li *ngFor="let subFilter of uvFilter.subFilters">
+                  <input type="checkbox" [attr.id]= "subFilter.id" [attr.name]= "subFilter.id"
+                         [checked]="subFilter.isActive"
+                         (change)="subFilter.isActive = !subFilter.isActive">
+                  <label [attr.for]="subFilter.id">{{subFilter.title}}</label>
+                </li>
+              </ul>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="modal-footer">
+    <button type="button" class="btn btn-secondary btn-lg" (click)="applyFilters(); modal.close('Close click')">Cancel</button>
     <button type="button" class="btn btn-primary btn-lg" (click)="applyFilters(); modal.close('Close click')">Apply</button>
   </div>
 </ng-template>
-
 
 <button class="btn btn-outline-primary mr-2 btn-lg full-width"
          (click)="openVerticallyCentered(filters)">Filter</button>

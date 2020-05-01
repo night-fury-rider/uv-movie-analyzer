@@ -3,12 +3,17 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { HomeService } from './../home/home.service';
 import { UvUtilService } from './../uv-util/uv-util.service';
+import { UvUiComponentService } from './../uv-ui-components/uv-ui-component.service';
 
 @Component({
   selector: 'app-uv-filter',
   templateUrl: './uv-filter.component.html',
   encapsulation: ViewEncapsulation.None,
-  styleUrls: ['./uv-filter.component.scss']
+  styleUrls: [
+    './uv-filter.component.scss',
+    './../uv-ui-components/uv-checkbox/uv-checkbox.scss',
+    './../../lib/svg-checkbox/normalize.css',
+  ]
 })
 export class UvFilterComponent implements OnInit {
 
@@ -21,7 +26,7 @@ export class UvFilterComponent implements OnInit {
   closeResult: string;
 
   constructor(private modalService: NgbModal, private homeService: HomeService,
-              private utilService: UvUtilService) { }
+              private utilService: UvUtilService, private uvUiComponentService: UvUiComponentService) { }
 
   ngOnInit(): void {
     this.activeFilter = this.uvFilters[0];
@@ -46,5 +51,8 @@ export class UvFilterComponent implements OnInit {
 
   openVerticallyCentered(content) {
     this.modalService.open(content, { centered: true });
+    setTimeout( () => {
+      this.uvUiComponentService.drawCheckbox();
+    }, 0);
   }
 }
