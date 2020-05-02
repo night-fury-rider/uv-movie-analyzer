@@ -10,7 +10,8 @@
       <div class="col-4 uv-filter-name-container">
         <div *ngFor="let uvFilter of uvFilters; let filterIndex=index;"
              (click)="changeActiveFilter(uvFilter)"
-             [ngClass]="(uvFilter === activeFilter) ? 'uv-active-filter' : ''"><h3>{{uvFilter.title}}</h3>
+             [ngClass]="(uvFilter === activeFilter) ? 'uv-active-filter' : ''">
+             <span>{{uvFilter.title}}</span>
         </div>
       </div>
       <div class="col-8 uv-checkbox-container">
