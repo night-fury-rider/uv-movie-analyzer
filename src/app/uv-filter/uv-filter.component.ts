@@ -49,8 +49,8 @@ export class UvFilterComponent implements OnInit {
     }
   }
 
-  openVerticallyCentered(content) {
-    this.modalService.open(content, { centered: true });
+  openFilters(content) {
+    this.modalService.open(content, {});
     setTimeout( () => {
       this.uvUiComponentService.drawCheckbox();
     }, 0);

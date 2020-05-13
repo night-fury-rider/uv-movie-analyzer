@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
 
 import { UvSearchboxComponent } from './uv-searchbox.component';
 
@@ -8,7 +9,10 @@ describe('UvSearchboxComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UvSearchboxComponent ]
+      declarations: [ UvSearchboxComponent ],
+      imports: [
+        FormsModule
+      ]
     })
     .compileComponents();
   }));
@@ -19,7 +23,7 @@ describe('UvSearchboxComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should be created', () => {
     expect(component).toBeTruthy();
   });
 });

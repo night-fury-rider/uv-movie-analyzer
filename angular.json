@@ -30,7 +30,8 @@
             "styles": [
               "src/variables.scss",
               "src/styles.scss",
-              "./node_modules/bootstrap/dist/css/bootstrap.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": []
           },
@@ -98,7 +99,8 @@
               "src/variables.scss",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "codeCoverageExclude": ["src/lib/svg-checkbox/**"]
           }
         },
         "lint": {

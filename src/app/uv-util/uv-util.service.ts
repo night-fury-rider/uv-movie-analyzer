@@ -50,7 +50,7 @@ export class UvUtilService {
    * @returns true if arrays are equal otherwise return false.
    * Note: This method is not recommended if array is large
    */
-  areArraysEqual(arr1: [], arr2: []) {
+  areArraysEqual(arr1, arr2) {
     return JSON.stringify(arr1) === JSON.stringify(arr2);
   }
 }

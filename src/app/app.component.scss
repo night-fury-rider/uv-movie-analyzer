@@ -33,7 +33,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: $uv-app-primary-color;
+    background-color: $uv-primary-color;
     color: white;
     font-weight: 600;
     z-index: 2;
@@ -90,12 +90,12 @@
   a,
   a:visited,
   a:hover {
-    color: $uv-app-primary-color;
+    color: $uv-primary-color;
     text-decoration: none;
   }
 
   a:hover {
-    color: $uv-app-hover-primary-color;
+    color: $uv-primary-hover-color;
   }
 
   footer {

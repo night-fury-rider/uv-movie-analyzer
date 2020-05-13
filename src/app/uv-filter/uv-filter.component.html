@@ -8,11 +8,18 @@
   <div class="modal-body">
     <div class="row">
       <div class="col-4 uv-filter-name-container">
+        <button *ngFor="let uvFilter of uvFilters; let filterIndex=index;"
+                class="btn btn-outline-info mr-2 btn-lg full-width"
+                [ngClass]="(uvFilter === activeFilter) ? 'uv-active-filter' : 'uv-inactive-filter'"
+                (click)="changeActiveFilter(uvFilter)">{{uvFilter.title}}
+                <i class="fa fa-chevron-right"></i></button>
+
+<!--   TODO: Utilize this to make buttons clean.
         <div *ngFor="let uvFilter of uvFilters; let filterIndex=index;"
              (click)="changeActiveFilter(uvFilter)"
              [ngClass]="(uvFilter === activeFilter) ? 'uv-active-filter' : ''">
-             <span>{{uvFilter.title}}</span>
-        </div>
+             <button type="button" class="btn">{{uvFilter.title}}</button>
+         </div> -->
       </div>
       <div class="col-8 uv-checkbox-container">
         <div *ngFor="let uvFilter of uvFilters">
@@ -40,4 +47,4 @@
 </ng-template>
 
 <button class="btn btn-outline-primary mr-2 btn-lg full-width"
-         (click)="openVerticallyCentered(filters)">Filter</button>
+         (click)="openFilters(filters)">Filter</button>

@@ -1,7 +1,12 @@
 @import '../../variables.scss';
 
 .uv-active-filter {
-  background-color: $uv-active-background-color;
+  background-color: $uv-primary-outline-color;
+  color: #fff;
+}
+
+.uv-inactive-filter {
+  border: none;
 }
 
 .modal-dialog,

@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-.ac-custom {
+.uv-active-filter-custom {
 	max-width: 900px;
 	margin: 0 auto;
 }
@@ -60,7 +60,7 @@
 
 .ac-custom label::before {
 	content: '';
-	border: 0.1em solid $uv-app-outline-primary-color;
+	border: 0.1em solid $uv-primary-outline-color;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
@@ -91,7 +91,7 @@
 }
 
 .ac-custom svg path {
-	stroke: $uv-app-outline-primary-color;
+	stroke: $uv-primary-outline-color;
 	stroke-width: 1.5em;
 	stroke-linecap: round;
 	stroke-linejoin: round;
@@ -172,13 +172,26 @@
 }
 
 .uv-filter-name-container {
+  background-color: lavender;
+  height: 10vh;
+  padding-left: 0;
   padding-right: 0;
 }
 
+.uv-filter-name-container button{
+  padding-right: 0;
+}
 .uv-filter-name-container span {
   font-size: 1.5em;
 }
+.uv-filter-name-container i {
+  float: right;
+  padding-right: 0.3em;
+  padding-top: 0.3em;
+}
+
+
 .uv-checkbox-container {
-  height: 75vh;
+  height: 70vh;
   overflow-y: scroll;
 }
