@@ -54,11 +54,9 @@ export class HomeComponent implements OnInit, OnDestroy {
      * @description Function to subscribe to filters.
      */
     this.filterSubscription = this.homeService.filterSubscriber$.subscribe(activeFilters => {
-
-      if (activeFilters === null) {
+      if (activeFilters === null || typeof this.appData === 'undefined') {
         return;
       }
-      const tmpCards = JSON.parse(JSON.stringify(this.uvCards));
       const rangeFilters = {};
       const checkboxFilters = {};
       let isRangeFilterApplied = false;
@@ -83,7 +81,6 @@ export class HomeComponent implements OnInit, OnDestroy {
           }
         }
       }
-
       if (isCheckboxFilterApplied) {
         this.uvActiveCards = this.uvUtilService.applyCheckboxFilter(this.uvCards, checkboxFilters);
       }
@@ -123,8 +120,14 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.searchBoxSubscription.unsubscribe();
-    this.filterSubscription.unsubscribe();
-    this.sortSubscription.unsubscribe();
+    if (this.searchBoxSubscription) {
+      this.searchBoxSubscription.unsubscribe();
+    }
+    if (this.filterSubscription) {
+      this.filterSubscription.unsubscribe();
+    }
+    if (this.sortSubscription) {
+      this.sortSubscription.unsubscribe();
+    }
   }
 }

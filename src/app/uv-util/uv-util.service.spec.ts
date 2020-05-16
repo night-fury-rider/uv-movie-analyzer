@@ -43,7 +43,7 @@ describe('UvUtilService', () => {
 
     tmpFilters[checkboxFilter.filterAttribute] = [];
     tmpFilters[checkboxFilter.filterAttribute].push(checkboxFilter.subFilters[1]);
-    expect(service.applyCheckboxFilter(globalmocks.cardData, tmpFilters).length).toEqual(2);
+    expect(service.applyCheckboxFilter(globalmocks.cardData, tmpFilters).length).toEqual(3);
 
     tmpFilters[checkboxFilter.filterAttribute] = [];
     tmpFilters[checkboxFilter.filterAttribute].push(checkboxFilter.subFilters[2]);

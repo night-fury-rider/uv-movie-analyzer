@@ -58,6 +58,16 @@ export const appData = {
 export const cardData = [
   {
     category: 'alien',
+    title: 'Predator',
+    year: 1987,
+    img: 'predator-1987.jpg',
+    url: '',
+    stars: [],
+    quality: '720p',
+    isHindi: true
+  },
+  {
+    category: 'alien',
     title: 'Alien Vs Predator',
     year: 2004,
     img: 'alien-vs-predator-2004.jpg',
@@ -98,7 +108,7 @@ export const cardData = [
   }
 ];
 
-const getClonedObj = (obj) => {
+export const getClonedObj = (obj) => {
   return JSON.parse(JSON.stringify(obj));
 };
 
@@ -136,7 +146,7 @@ export const HomeService = jasmine.createSpyObj('HomeService', ['updateCards', '
 
 HomeService.searchSubscriber$ = {
   subscribe: (callback) => {
-    callback('Alien');
+    callback('');
   }
 };
 
@@ -156,6 +166,12 @@ export const UvUtilService = jasmine.createSpyObj('UvUtilService', ['applyRangeF
 
 UvUtilService.areArraysEqual.and.callFake(() => {
   return true;
+});
+UvUtilService.applyRangeFilter.and.callFake(() => {
+  return [];
+});
+UvUtilService.applyCheckboxFilter.and.callFake(() => {
+  return [];
 });
 
 export const NgbModal = jasmine.createSpyObj('NgbModal', ['open']);
