@@ -1,4 +1,6 @@
-  :host {
+@import '../variables.scss';
+
+:host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     color: #333;
@@ -25,16 +27,16 @@
   }
 
   .toolbar {
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #1976d2;
+    background-color: $uv-primary-color;
     color: white;
     font-weight: 600;
+    z-index: 2;
   }
 
   .toolbar img {
@@ -88,15 +90,14 @@
   a,
   a:visited,
   a:hover {
-    color: #1976d2;
+    color: $uv-primary-color;
     text-decoration: none;
   }
 
   a:hover {
-    color: #125699;
+    color: $uv-primary-hover-color;
   }
 
-  
   footer {
     margin-top: 8px;
     display: flex;
@@ -108,7 +109,7 @@
     display: flex;
     align-items: center;
   }
-  
+
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
 
@@ -130,4 +131,17 @@
     margin-right: 1rem;
     position: absolute;
     right: 0;
+   }
+
+   .uv-filter-header {
+     margin-bottom: 5rem;
+     z-index: 2;
+   }
+
+   .uv-filter-container, .uv-filter-container button {
+     width: 100%;
+   }
+
+   .uv-filter-header button {
+    z-index: 2;
    }

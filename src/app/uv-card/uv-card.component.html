@@ -2,7 +2,8 @@
   <img [src]="appData.cardPath + cardData.img" class="card-img-top" alt="Yuvraj Patil">
   <div class="card-body d-flex flex-column">
     <h5 class="card-title">{{cardData.title}} ({{cardData.year}})</h5>
-    <p *ngIf="cardData.stars.length > 0" class="card-text">Starring: {{cardData.stars}}</p>
+    <p *ngIf="cardData.stars && cardData.stars.length > 0"
+       class="card-text">Starring: {{cardData.stars}}</p>
     <span>
       <span class="badge badge-pill badge-info uv-badge" *ngIf="cardData.isHindi">Hindi</span>
       <span class="badge badge-pill badge-info uv-badge">{{cardData.quality}}</span>
