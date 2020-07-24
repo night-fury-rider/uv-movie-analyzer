@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import 'variables.scss';
+
 /* rem styles started */
 
   .margin-left-rem-1 {
@@ -16,6 +18,10 @@
 
 /* rem styles ended */
 
+.padding-zero {
+  padding: 0 !important;
+}
+
 .full-width {
   width: 100%;
 }
@@ -25,3 +31,22 @@
   margin-left: 0.5rem;
   width: fit-content;
 }
+.uv-disabled {
+  background-color: gray !important;
+}
+
+/* Styles of modal started */
+.modal-header {
+  border-bottom:1px solid #eee;
+  background-color: $uv-primary-color;
+}
+.modal-header .close {
+  padding-right: 1em !important;
+}
+.modal-header .close span {
+  font-size: 1.5em;
+}
+.modal-footer button {
+  margin-right: 1em;
+}
+/* Styles of modal ended */

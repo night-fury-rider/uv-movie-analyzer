@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.uv-active-filter {
+  background-color: $uv-primary-outline-color;
+  color: #fff;
+}
+
+.uv-inactive-filter {
+  border: none;
+}
+
+.modal-dialog,
+.modal-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}

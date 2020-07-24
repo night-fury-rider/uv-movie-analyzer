@@ -1,11 +1,158 @@
 {
   "app": {
     "title": "UV Movie Collection",
+    "sortOrders": [
+      {
+        "type": "string",
+        "name": "Title",
+        "sortAttribute": "title"
+      },
+      {
+        "type": "number",
+        "name": "Year",
+        "sortAttribute": "year"
+      }
+    ],
+    "defaultOrderIndex": 1,
+    "filterTitle": "Filter",
+    "filters": [
+      {
+        "id": "category",
+        "title": "Category",
+        "type": "checkbox",
+        "filterAttribute": "category",
+        "subFilters": [
+          {
+            "id": "action",
+            "title": "Action",
+            "isActive": false
+          },
+          {
+            "id": "alien",
+            "title": "Alien",
+            "isActive": false
+          },
+          {
+            "id": "adventure",
+            "title": "Adventure",
+            "isActive": false
+          },
+          {
+            "id": "animation",
+            "title": "Animation",
+            "isActive": false
+          },
+          {
+            "id": "comedy",
+            "title": "Comedy",
+            "isActive": false
+          },
+          {
+            "id": "dance",
+            "title": "Dance",
+            "isActive": false
+          },
+          {
+            "id": "dynasours-and-animals",
+            "title": "Animals",
+            "isActive": false
+          },
+          {
+            "id": "fantasy",
+            "title": "Fantasy",
+            "isActive": false
+          },
+          {
+            "id": "ghost-and-horror",
+            "title": "Horror",
+            "isActive": false
+          },
+          {
+            "id": "mystery",
+            "title": "Mystery",
+            "isActive": false
+          },
+          {
+            "id": "melody-and-drama",
+            "title": "Drama",
+            "isActive": false
+          },
+          {
+            "id": "planning",
+            "title": "Planning",
+            "isActive": false
+          },
+          {
+            "id": "romance",
+            "title": "Romance",
+            "isActive": false
+          },
+          {
+            "id": "sci-fi",
+            "title": "Sci-Fi",
+            "isActive": false
+          },
+          {
+            "id": "superhero",
+            "title": "Superhero",
+            "isActive": false
+          },
+          {
+            "id": "vampire-vs-zombies",
+            "title": "Zombies",
+            "isActive": false
+          },
+          {
+            "id": "wars",
+            "title": "Wars",
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "id": "year",
+        "title": "Year",
+        "type": "range",
+        "filterAttribute": "year",
+        "subFilters": [
+          {
+            "id": "old",
+            "title": "1947 - 1989",
+            "range": [1947, 1989],
+            "isActive": false
+          },
+          {
+            "id": "90z",
+            "title": "1990 - 1999",
+            "range": [1990, 1999],
+            "isActive": false
+          },
+          {
+            "id": "2000z",
+            "title": "2000 - 2009",
+            "range": [2000, 2009],
+            "isActive": false
+          },
+          {
+            "id": "2010z",
+            "title": "2010 - 2019",
+            "range": [2010, 2019],
+            "isActive": false
+          },
+          {
+            "id": "2020z",
+            "title": "2020 - 2029",
+            "range": [2020, 2029],
+            "isActive": false
+          }
+        ]
+      }
+    ],
     "icon": "./assets/icons/logo.svg",
     "cardPath": "./../../assets/cards/",
     "categories": ["action", "alien", "adventure", "animation", "comedy", "dance",
                    "dynasours-and-animals", "fantasy", "ghost-and-horror", "mystery",
-                   "melody-and-drama", "planning", "romance", "sci-fi", "superhero", 
+                   "melody-and-drama", "planning", "romance", "sci-fi", "superhero",
                    "vampire-vs-zombies", "wars"]
   }
 }

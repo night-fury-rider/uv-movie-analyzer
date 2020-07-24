@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
@@ -18,7 +18,8 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "jasmine"
     ]
   },
   "angularCompilerOptions": {
